@@ -4,7 +4,7 @@ import unittest
 from inspect import getsource
 import sys
 
-import specialtopics as ST
+import specialtopics2 as ST
 
 scriptDirectory = os.path.dirname(__file__)
 allowed_modules = ["csv", "probability", "numpy", "re"]

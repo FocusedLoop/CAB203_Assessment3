@@ -7,7 +7,7 @@ import unittest
 import specialtopics as ST
 from inspect import getsource
 
-randomSeed = 31     # <--------------------- change the seed here
+randomSeed = 0     # <--------------------- change the seed here
 scriptDirectory = os.path.dirname(__file__)
 allowed_modules = [ 'probability', 'numpy', 'csv', 're' ]
 
